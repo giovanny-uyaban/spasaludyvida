@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Salud y Vida Sana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+        <!-- Carrusel de imágenes -->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-full-width" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" class="d-block w-100 carousel-image" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Limpieza Facial Profunda</h5>
+                        <p>Evite problemas cutáneos como puntos negros, pequeños forúnculos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" class="d-block w-100 carousel-image" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Depilación con Rodillo</h5>
+                        <p>Evite depilarse con cuchilla para prevenir irritación</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" class="d-block w-100 carousel-image" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Masajes Reductores</h5>
+                        <p>Masajes que ayudan al moldeamiento y reducción</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Barra de Navegación -->
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logotipo de la empresa">
+                Spa Salud y Vida Sana
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctenos</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido de la Página -->
+    <div class="container overflow-hidden text-center">
+        <br>
+        <br>
+        <h1 class="container text-center">CONTACTO</h1>
+        <br>
+        <div class="row gy-4">
+            <div class="col-6">
+
+                <div class="p-3">
+                    <p class="wnd-align-right"><strong>Dirección</strong><br>
+                        Cl. 142b #112-33, Suba, Bogotá. </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <p class="wnd-align-right"><strong>Email</strong><br>
+                        Spasaludsuba@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <p><strong>Teléfono</strong><br>
+                        3227123582</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="p-3">
+                    <p><strong>Abierto</strong><br>
+                        Lun&nbsp;-&nbsp;Vie:&nbsp;8am - 6pm</p>
+                </div>
+            </div>
+            <div class="b b-map b-s" style="center">
+                <p class="wnd-align-right"><strong>Como llegar</strong><br>
+                    Encuentranos en la localidad de SUBA</p>
+                <div class="b-c" id="wnd_MapBlock_17881865_container" style="position:relative;padding-bottom:41.58%;">
+                    <iframe src="https://web-1043.webnode.it/widgets/googlemaps/?z=15&amp;a=Cl.+142b+%23112-33%2C+Suba%2C+Bogot%C3%A1%2C+Bogot%C3%A1%2C+.+" style="position:absolute;top:0%;left:0%;width:100%;height:100%;" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-body-secondary">© 2023 Spa Salud y Vida Sana - Andres Uyaban Martinez</p>
+
+                    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Servicios</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Acerca De</a></li>
+                    </ul>
+                </footer>
+            </div>
+            <!-- Footer -->
+
+            <!-- Scripts -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+            <script src="js/script.js"></script>
+
+            <!-- Primer Modal: Inicio de Sesión -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="loginModalLabel">Inicio de Sesión</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Formulario de Inicio de Sesión -->
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="password" name="password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                                <a href="#" class="btn btn-google btn-block">
+                                    <i class="fab fa-google"></i> Iniciar Sesión con Google
+                                </a>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button class="btn btn-primary" data-bs-target="#registerModal" data-bs-toggle="modal">Registrarse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Modal: Registro -->
+            <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="registerModalLabel">Registro</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Formulario de Registro -->
+                            <form id="registerForm">
+                                <div class="mb-3">
+                                    <label for="newEmail" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="text" name="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newEmail" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="text" name="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newEmail" class="form-label">Cédula</label>
+                                    <input type="text" class="form-control" id="text" name="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newPassword" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="newPassword" name="newPassword">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="newPassword" class="form-label">Repite Contraseña</label>
+                                    <input type="password" class="form-control" id="newPassword" name="newPassword">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Registrarse</button>
+                                <a href="#" class="btn btn-google btn-block">
+                                    <i class="fab fa-google"></i> Registrarse con Google
+                                </a>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Volver a Inicio de Sesión</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body></html>
